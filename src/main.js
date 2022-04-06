@@ -1,11 +1,9 @@
-const myName = "cedrick";
+const world = "the world is yours";
 
-
-
-console.log(myName.toLowerCase());
-console.log(myName.toUpperCase());
-console.log(myName.replace("ck","c"));
-console.log(myName.replace("ce","a" ));
-console.log("my name is " + myName );
-console.log(`${myName} P`);
-
+console.log(world);
+console.log(world.toLowerCase());
+console.log(world.toUpperCase());
+console.log(world.replace("yours", "mine"));
+console.log(world.replace("the world is yours", "whos world is it"));
+console.log("whos world is it " + world);
+console.log(`${world} yours`);
